@@ -1,0 +1,76 @@
+.colaborador {
+    margin:5px;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+}
+
+.colaborador .cabecalho {
+    background-color:  #F0F0F0;
+    border-radius: 10px 0px 0px 10px;
+}
+.colaborador img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    right: -35px;
+    bottom: -10%; 
+}
+
+.colaborador .rodape {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10% 5px 10% 14%;
+    flex-direction: column;
+    background: #eeeeee;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.colaborador .rodape h4 {
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.colaborador .rodape h5 {
+    font-size: 18px;
+    margin: 5px;
+    text-align: left;
+    line-height: 22px;
+    color: #5d5d5d;
+}
+
+@media (max-width: 700px) {
+    .colaborador {
+        flex-direction: column; 
+        width: 40%; 
+    }
+    .colaborador .cabecalho {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .colaborador img {
+        position: relative;
+        right: 0;
+        bottom: -20px;
+        margin: 0 auto; 
+    }
+    .colaborador .rodape {
+        margin: 0 auto;
+        width: 85%; 
+        border-radius: 0px 0px 10px 10px;
+        padding: 10% 10px 10% 10%;
+    }
+
+    .colaborador .rodape h5 {
+        text-align: center;
+    }
+
+    .colaborador .rodape h4 {
+        text-align: center;
+    }
+}

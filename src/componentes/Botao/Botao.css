@@ -1,0 +1,44 @@
+button{
+    display: block;
+    background-color: rgb(255, 251, 0);
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 0;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+
+  button span{
+    position: relative;
+    z-index: 2;
+  }
+
+  
+  button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 30px;
+    background: rgb(34, 255, 0);
+    transition: all .35s;
+  }
+  
+  button:hover{
+    color: #ffffff;
+  }
+  
+  button:hover:after{
+    width: 100%;
+  }

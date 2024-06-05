@@ -1,0 +1,26 @@
+.footer {
+    background: black;
+    color: #FFF;
+    padding: 45px 70px 45px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 250px;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+   
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer .frase{
+    max-width: 20%;
+}
